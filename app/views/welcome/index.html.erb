@@ -1,5 +1,4 @@
 <body id="page-top">
-
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -7,7 +6,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HELLO FRIENDS</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><%= link_to 'HELLO FRIENDS', controller: 'welcome' %></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,11 +32,12 @@
     </nav>
 
     <header>
+        
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">Thousands of Awesome Blogs Are Waiting For You</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+                <p>Let's Write A Blog Or Comment To Share Your Free Ideas!</p>
                 <div id="1" class="btn btn-primary btn-xl page-scroll">
                     <%= link_to 'My Blog', controller: 'articles' %>
                 </div>
